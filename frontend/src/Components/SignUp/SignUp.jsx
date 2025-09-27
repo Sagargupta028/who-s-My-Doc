@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import NavBar from '../Navbar/NavBar';
 import { API_ENDPOINTS } from '../../config/api';
+import img from '../../assets/doc3.jpg';
+import './SignUp.css';
+
 
 export default function SignUp() {
   const [type, setType] = useState("patient");
