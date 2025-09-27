@@ -1,0 +1,38 @@
+patient registration
+{
+    "username":"pat1",
+    "email":"pat1@email",
+    "password" : "1234",
+    "name":"Patient Name1",
+    "age": 30,
+    "sex":"Male",
+    "type": "patient"
+
+}
+
+
+Doctor registration
+{
+    "username":"doctor11",
+    "email":"doctor11@gmail.com",
+    "password" : "1234",
+    "name":"Ayan Dey",
+    "regno": "AD011",
+    "qualification":"MD",
+    "specialisation" : "Neurologist",
+    "experience": 4,
+    "fees": 600,
+    "timeslot_start" : 9,
+    "timeslot_end": 12,
+    "location": "Kalyani",
+    "type": "doctor"
+
+}
+
+
+//Doctor login
+{
+    "email":"doctor11@gmail.com",
+    "password" : "1234",
+    "type": "doctor"
+}

@@ -1,0 +1,10 @@
+doctor1,doctor1@gmail.com,Rajesh Kumar,RJ001,MD,Cardiologist,10,500,9,13,Kalyani
+doctor2,doctor2@gmail.com,Anjali Sharma,AS002,MD,Neurologist,8,600,10,14,Kanchrapara
+doctor3,doctor3@gmail.com,Manish Gupta,MG003,MD,Cardiologist Surgeon,15,700,11,15,Kalyani
+doctor4,doctor4@gmail.com,Priya Mishra,PM004,MD,Neurologist,12,550,8,12,Kalyani
+doctor5,doctor5@gmail.com,Ajay Singh,AS005,MD,Cardiologist,20,800,12,16,Kanchrapara
+doctor6,doctor6@gmail.com,Shweta Patel,SP006,MD,Carxdiologist and Gynecologist,9,650,13,17,Kalyani
+doctor7,doctor7@gmail.com,Rahul Verma,RV007,MD,Cardiologist,14,750,14,18,Kalyani
+doctor8,doctor8@gmail.com,Neeta Singh,NS008,MD,Neurologist Specialist,11,600,15,19,Kalyani
+doctor9,doctor9@gmail.com,Sufiyaan Qureshi,SQ009,MD,Neurologist,18,700,16,20,Naihati
+doctor10,doctor10@gmail.com,Pooja Gupta,PG010,MD,Cardiologist,7,800,17,21,Kalyani

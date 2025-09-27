@@ -1,0 +1,30 @@
+user1,user1@gmail.com,Rajesh Kumar,40,Male,Naihati
+user2,user2@gmail.com,Anjali Sharma,35,Female,Kalyani
+user3,user3@gmail.com,Manish Gupta,45,Male,Kolkata
+user4,user4@gmail.com,Priya Mishra,38,Female,Barrackpore
+user5,user5@gmail.com,Ajay Singh,7,Male,Sealdah
+user6,user6@gmail.com,Shweta Patel,42,Female,Central Park- Kalyani
+user7,user7@gmail.com,Rahul Verma,48,Male,Kankinara
+user8,user8@gmail.com,Neeta Singh,54,Female,DumDum
+user9,user9@gmail.com,Suresh Yadav,55,Male,Sodpur
+user10,user10@gmail.com,Pooja Gupta,33,Female,Palta
+user11,user11@gmail.com,Amit Patel,15,Male,Bidhannagar
+user12,user12@gmail.com,Fatima Ansari,39,Female,Ballygunge
+user13,user13@gmail.com,Rahul Singh,30,Male,Baguiati
+user14,user14@gmail.com,Sneha Gupta,22,Female,Behala
+user15,user15@gmail.com,Joseph Mathew,47,Male,Dum Dum
+user16,user16@gmail.com,Shreya Das,29,Female,Garia
+user17,user17@gmail.com,Mohammed Ali,36,Male,Salt Lake
+user18,user18@gmail.com,Swati Mishra,26,Female,New Town
+user19,user19@gmail.com,Rajesh Tiwari,31,Male,Howrah
+user20,user20@gmail.com,Meera Singh,8,Female,Bally
+user21,user21@gmail.com,Jaspreet Singh,43,Male,Rajarhat
+user22,user22@gmail.com,Neha Jain,40,Female,Barasat
+user23,user23@gmail.com,Rakesh Gupta,45,Male,Sodepur
+user24,user24@gmail.com,Simran Kaur,31,Female,Serampore
+user25,user25@gmail.com,Christopher D'Souza,43,Male,Bidhannagar
+user26,user26@gmail.com,Ananya Das,13,Female,Barrackpore
+user27,user27@gmail.com,Vikas Singh,37,Male,Kestopur
+user28,user28@gmail.com,Kajal Sharma,17,Female,Baguiati
+user29,user29@gmail.com,Ahmed Khan,48,Male,New Town
+user30,user30@gmail.com,Ashwini Patel,26,Female,Kolkata

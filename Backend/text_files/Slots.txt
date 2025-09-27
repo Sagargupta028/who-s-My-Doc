@@ -1,0 +1,15 @@
+RJ001,user1,9am-9:30am,confirmed
+RJ001,user2,10am-11am,pending
+RJ001,user3,1pm-2pm,confirmed
+AS002,user4,10am-10:30am,pending
+AS002,user5,10:45am-2pm,confirmed
+AS002,user6,11am-12pm,confirmed
+MG003,user7,11am-12pm,confirmed
+MG003,user8,12pm-1:15pm,pending
+MG003,user9,1:15pm-2pm,pending
+PM004,user10,8am-9am,pending
+PM004,user11,9:15am-10:30am,confirmed
+AS005,user12,11am-12pm,pending
+AS005,user13,12:30pm-1:45pm,pending
+AS005,user14,1pm-1:30pm,confirmed
+SP006,user15,2pm-3pm,pending

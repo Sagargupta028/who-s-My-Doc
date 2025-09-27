@@ -1,0 +1,59 @@
+backend
+//
+CREATE TABLE Doctor (
+                        username VARCHAR(255),
+                        email VARCHAR(255) PRIMARY KEY,
+                        password VARCHAR(255),
+                        name TEXT,
+                        regno VARCHAR(100),
+                        qualification TEXT,
+                        specialisation TEXT,
+                        experience INTEGER,
+                        fees REAL,
+                        timeslot_start INT,
+                        timeslot_end INT,
+                        location VARCHAR(255),
+                        review FLOAT DEFAULT 0,
+                        count INT DEFAULT 0);
+
+//
+
+
+
+
+//patient table
+
+CREATE TABLE IF NOT EXISTS Patient (
+                        username VARCHAR(255),
+                        email VARCHAR(255) PRIMARY KEY,
+                        password VARCHAR(255),
+                        name TEXT,
+                        age INTEGER,
+                        sex VARCHAR(20)
+                    );
+
+// Booking Details table
+
+CREATE TABLE booking_details(
+    doctor_email VARCHAR(255),
+    patient_email VARCHAR(255),
+    date_of_appointment DATE,
+    slot_booked INT,
+    PRIMARY KEY (doctor_email, date_of_appointment, slot_booked)
+);
+
+//for stroing the previous record
+CREATE TABLE previous_records(
+    doctor_email VARCHAR(255),
+    patient_email VARCHAR(255),
+    date_of_appointment DATE,
+    slot_booked INT,
+    PRIMARY KEY (doctor_email, date_of_appointment, slot_booked)
+);
+
+
+CREATE TABLE SLOTS (
+    doctor_email,
+    date,
+    slots
+)
