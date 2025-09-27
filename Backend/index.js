@@ -20,6 +20,31 @@ app.use(express.json());
 // app.use(express.urlencoded({ extended: false }));
 app.use(cors())
 
+// Root route for health check
+app.get('/', (req, res) => {
+    res.json({ 
+        message: "Who's My Doc API is running!", 
+        status: "success",
+        timestamp: new Date().toISOString(),
+        endpoints: {
+            login: "/login",
+            register: "/register", 
+            patient: "/patient",
+            doctor: "/doctor",
+            prediction: "/prediction"
+        }
+    });
+});
+
+// API health check endpoint
+app.get('/health', (req, res) => {
+    res.json({ 
+        status: "healthy",
+        database: "connected",
+        timestamp: new Date().toISOString()
+    });
+});
+
 // MongoDB connection
 mongoose.connect(process.env.MONGODB_URI)
 .then(() => {
@@ -41,6 +66,32 @@ app.use('/register', registerRouter(models))
 app.use('/patient', patientRoute(models))
 app.use('/doctor', doctorRoute(models))
 app.use('/prediction', prdictionRouter(models))
+
+// Handle 404 for undefined routes
+app.use('*', (req, res) => {
+    res.status(404).json({
+        error: "Route not found",
+        message: `Cannot ${req.method} ${req.originalUrl}`,
+        availableEndpoints: [
+            "GET /",
+            "GET /health", 
+            "POST /login",
+            "POST /register",
+            "POST /patient/*",
+            "POST /doctor/*",
+            "POST /prediction/*"
+        ]
+    });
+});
+
+// Global error handler
+app.use((err, req, res, next) => {
+    console.error('Error:', err);
+    res.status(500).json({
+        error: "Internal server error",
+        message: err.message || "Something went wrong!"
+    });
+});
 
 
 
