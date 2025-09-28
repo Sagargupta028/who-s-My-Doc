@@ -30,7 +30,7 @@ A modern, full-stack healthcare application that connects patients with doctors 
 
 Watch the application in action:
 
-[![Who's My Doc Demo](https://drive.google.com/file/d/1mE5Cc-c6eWxe0eA4sOSZjzgmCTEiUv12/view?usp=sharing)
+[![Who's My Doc Demo](https://drive.google.com/file/d/1YDJS0-2Mk-d29OwWloMLSjLjCtQx3nbj/view?usp=sharing)](https://drive.google.com/file/d/1mE5Cc-c6eWxe0eA4sOSZjzgmCTEiUv12/view?usp=sharing)
 
 *Click the image above to watch the demo video on YouTube*
 
