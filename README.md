@@ -30,11 +30,9 @@ A modern, full-stack healthcare application that connects patients with doctors 
 
 Watch the application in action:
 
-[![Who's My Doc Demo](https://ibpf.org/wp-content/uploads/2016/09/doctors-appointment-mental-health.png)](https://drive.google.com/file/d/1mE5Cc-c6eWxe0eA4sOSZjzgmCTEiUv12/view?usp=sharing)
+[![Who's My Doc Demo]()](https://drive.google.com/file/d/1mE5Cc-c6eWxe0eA4sOSZjzgmCTEiUv12/view?usp=sharing)
 
-*Click the image above to watch the demo video on YouTube*
 
-> **Note:** Replace `YOUR_VIDEO_ID` with your actual YouTube video ID once you upload your demo video.
 
 ## 🛠️ Tech Stack
 
